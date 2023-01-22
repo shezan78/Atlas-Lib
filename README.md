@@ -13,3 +13,10 @@ local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cuesh
 -- // Window \\ --
 local window = library.new('leadmarker is so hot', 'leadmarker')
 ```
+
+## Tabs
+```lua
+-- // Tabs \\ --
+local tab = window.new_tab('rbxassetid://4483345998')
+local tab1 = window.new_tab('rbxassetid://4483345998')
+```

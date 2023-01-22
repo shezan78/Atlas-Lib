@@ -27,3 +27,9 @@ local tab1 = window.new_tab('rbxassetid://4483345998')
 local section = tab.new_section('Bruh XD')
 local section1 = tab.new_section(':DDD HI')
 ```
+## Sectors
+```lua
+-- // Sector \\ --
+local sector = section.new_sector('OK', 'Left')
+local sector1 = section.new_sector('BRUHHHH', 'Right')
+```

@@ -33,3 +33,31 @@ local section1 = tab.new_section(':DDD HI')
 local sector = section.new_sector('OK', 'Left')
 local sector1 = section.new_sector('BRUHHHH', 'Right')
 ```
+
+# Elements
+```lua
+-- // You can figure out what these are reading the first line \\ --
+-- // Elements \\ -- (Type, Name, State, Callback)
+local button = sector.element('Button', 'Button', nil, function()
+
+end)
+
+local toggle = sector.element('Toggle', 'Toggle', false, function(v)
+   print(v.Toggle) -- :nerd:
+end)
+toggle:add_color({Color = Color3.fromRGB(84, 101, 255)}, nil, function(v)
+   print(v.Color)    
+end)
+
+local dropdown = sector.element('Dropdown', 'Dropdown', {options = {'one', 'two', 'three'}}, function(v)
+   print(v.Dropdown)
+end)
+
+local slider = sector.element('Slider', 'Slider', {default = {min = 1, max = 100, default = 50}}, function(v)
+   print(v.Slider)
+end)
+
+local combo = sector.element('Combo', 'Combo', {options = {'bruh', 'otherbruh'}}, function(v)
+   table.foreach(v.Combo, print)
+end)
+```

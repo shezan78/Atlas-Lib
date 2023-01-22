@@ -20,3 +20,10 @@ local window = library.new('leadmarker is so hot', 'leadmarker')
 local tab = window.new_tab('rbxassetid://4483345998')
 local tab1 = window.new_tab('rbxassetid://4483345998')
 ```
+
+## Sections
+```lua
+-- // Sections \\ --
+local section = tab.new_section('Bruh XD')
+local section1 = tab.new_section(':DDD HI')
+```

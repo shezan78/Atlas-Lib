@@ -5,7 +5,7 @@ Local dependencies ↓
 ## Library
 
 ```lua
-local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cueshut/saves/main/criminality%20paste%20ui%20library'))()
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/shezan78/Atlas-Lib/main/Atlas%20UI%20Lib.lua'))()
 ```
 
 ## Window
